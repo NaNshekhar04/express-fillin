@@ -1,9 +1,12 @@
 const express = require("express");
 
-function expressBooster(port) {
+function expressFillIn(port) {
   const app = express();
-  app.listen(port, () => {
-    console.log(`Server Up and running on port ${port}`);
+  app.listen(port, (err) => {
+    if (err) {
+      console.log(`Error in running express server`);
+    }
+    console.log(`Server Up and running on port :: ${port}`);
   });
 }
-module.exports = expressBooster;
+module.exports = expressFillIn;
