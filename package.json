@@ -1,0 +1,26 @@
+{
+  "name": "express-booster",
+  "version": "1.0.0",
+  "description": "Starts up express server without writing that boring server boilerplate code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaNshekhar04/express-booster.git"
+  },
+  "keywords": [
+    "express",
+    "express-booster"
+  ],
+  "author": "shekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaNshekhar04/express-booster/issues"
+  },
+  "homepage": "https://github.com/NaNshekhar04/express-booster#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
