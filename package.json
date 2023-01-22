@@ -1,6 +1,6 @@
 {
   "name": "express-fillin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starts up express server without writing that boring server boilerplate code.",
   "main": "index.js",
   "scripts": {
